@@ -58,10 +58,10 @@
 
     <ul v-if="artists.length > 0">
         <li v-for="artist in artists" :key="artist.artist_id">
-            {{ artist.name }}
+            {{ artist.name }}&nbsp;
 
             <button @click="removeArtist(artist.artist_id)">
-                Delete
+                Delete 
             </button>
         </li>
     </ul>

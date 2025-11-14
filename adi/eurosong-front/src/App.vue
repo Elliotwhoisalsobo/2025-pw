@@ -5,11 +5,11 @@
   <div>
     <!-- Navigation -->
     <nav>
-      <RouterLink to="/">Home</RouterLink>
-      <RouterLink to="/artists">Artists</RouterLink>
-      <RouterLink to="/songs">Songs</RouterLink>
-      <RouterLink to="/ranking">Ranking</RouterLink>
-      <RouterLink to="/voting">Voting</RouterLink>
+      <RouterLink to="/">Home</RouterLink>&nbsp;
+      <RouterLink to="/artists">Artists</RouterLink>&nbsp;
+      <RouterLink to="/songs">Songs</RouterLink>&nbsp;
+      <RouterLink to="/ranking">Ranking</RouterLink>&nbsp;
+      <RouterLink to="/voting">Voting</RouterLink>&nbsp;
     </nav>
 
     <RouterView />
